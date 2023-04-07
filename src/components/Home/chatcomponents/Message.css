@@ -28,10 +28,13 @@
     border-radius: 0 8px 8px 0px;
     color: black;
 }
-.public-text-content{
-    
+.public-text-content {
     color: white !important;
     background-color: #a7bcff !important;
+    width: max-content;
+    /* height: 50px; */
+    padding: 13px 17px;
+    border-radius: 0 8px 8px 0px;
 }
 .public-container{
     display: flex;
@@ -52,7 +55,6 @@
     display: flex;
     align-items: center;
     width: max-content;
-    width: 100%;
     align-self: flex-end;
     flex-direction: row-reverse;
     gap: 15px;

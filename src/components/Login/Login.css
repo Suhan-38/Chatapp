@@ -6,6 +6,8 @@
     align-items: center;
     justify-content: center;
     background-color: #a7bcff;
+    flex-direction: column;
+    gap: 40px;
 }
 .Login-container{
     width: 90%;
@@ -19,7 +21,7 @@
     background-color: white;
     border-radius: 10px;
     position: relative;
-    
+    margin: 15px;
 }
 .heading{
     display: flex;
@@ -86,4 +88,10 @@ input::placeholder{
 }
 input:focus{
     outline: none;
+}
+@media (max-width: 800px) {
+    .Login-container{
+        width: 85%;
+    }
+    
 }

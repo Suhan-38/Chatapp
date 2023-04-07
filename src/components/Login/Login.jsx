@@ -22,6 +22,7 @@ const Login = () => {
     }
     return (
         <div className='login-section'>
+            <h2>Welcome to Soo chat</h2>
             <div className='Login-container'>
                 <div className='heading'>
                     <h2>Soo chat</h2>
