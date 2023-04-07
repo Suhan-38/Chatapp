@@ -1,0 +1,32 @@
+.Bottomsearch{
+    width: 100%;
+    height: 14%;
+    justify-content: space-between; 
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+}
+.chat-input{
+    border: none !important;
+    color: black;
+    width: 70%;
+    border-bottom: none;
+}
+.bottom-side-div{
+    justify-content: space-between; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.chat-input:focus{
+    outline: none;
+}
+.bottom-button{
+    padding: 5px 10px;
+    background-color: #395664;
+    color: white;
+}
+.chat-input::placeholder{
+    color: gray;
+}

@@ -1,0 +1,12 @@
+.chat{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+@media (max-width: 800px) {
+    .displayname{
+        display: none !important;
+    } 
+}

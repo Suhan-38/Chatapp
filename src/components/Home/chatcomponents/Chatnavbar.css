@@ -1,0 +1,21 @@
+.chat-nav{
+    width: 96%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #680fd4;
+    height: 9%;
+    color: white;
+}
+.chat-icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+@media (min-width: 801px) {
+    .backid{
+        display: none;
+    }
+    
+}

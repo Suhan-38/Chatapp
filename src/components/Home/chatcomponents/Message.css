@@ -1,0 +1,65 @@
+.Message{
+    width: 96%;
+    padding: 2%;
+    height: 72%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 240, 247);
+    overflow-y: auto;
+    gap: 30px;
+}
+.my-message{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: max-content;
+    max-width: 60%;
+    align-self: flex-start;
+}
+.identity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.text-content{
+    background-color: white;
+    padding: 15px;
+    border-radius: 0 8px 8px 0px;
+    color: black;
+}
+.public-text-content{
+    
+    color: white !important;
+    background-color: #a7bcff !important;
+}
+.public-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    width: max-content;
+    max-width: 60%;
+    align-self: flex-end;
+
+}
+.pic-lga {
+    width: 125px;
+    height: 150px;
+    margin: 10px;
+}
+.public-message{
+    display: flex;
+    align-items: center;
+    width: max-content;
+    width: 100%;
+    align-self: flex-end;
+    flex-direction: row-reverse;
+    gap: 15px;
+    
+    
+}
+.messagepic{
+    width: 200px;
+    height: 200px;
+}
